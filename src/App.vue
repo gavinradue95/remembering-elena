@@ -14,7 +14,7 @@
 <style>
 body {
   margin: 0;
-  background-color: #bea996;
+  background-color: #c4aa99;
 }
 
 #app {

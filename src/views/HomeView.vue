@@ -33,6 +33,24 @@ export default {
     width: 100%;
     color: #231f20;
     font-family: cursive;
+    h2 { font-size: 48px; }
+    h1 { font-size: 86px; }
+    h3 { font-size: 28px; }
+    @media (max-width: 1500px) {
+      h2 { font-size: 38px; }
+      h1 { font-size: 64px; }
+      h3 { font-size: 24px; }
+    }
+    @media (max-width: 1200px) {
+      h2 { font-size: 32px; }
+      h1 { font-size: 48px; }
+      h3 { font-size: 22px; }
+    }
+    @media (max-width: 1050px) {
+      h2 { font-size: 28px; }
+      h1 { font-size: 36px; }
+      h3 { font-size: 20px; }
+    }
   }
   @media (max-width: 950px) {
     flex-direction: column;
