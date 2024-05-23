@@ -3,7 +3,7 @@
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/gallery">Gallery</router-link>
-      <router-link to="/journey">Life of Elena</router-link>
+      <!--<router-link to="/journey">Life of Elena</router-link>-->
       <router-link to="/service">Order of Service</router-link>
       <router-link to="/stream">Live Stream</router-link>
     </nav>
@@ -29,7 +29,8 @@ nav {
   padding: 30px;
   @media (max-width: 600px) {
     border-bottom: 1px solid #231f20;
-    margin: 0;
+    margin: 0 0 12px;
+    padding: 12px 0;
   }
 }
 

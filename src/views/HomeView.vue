@@ -51,6 +51,9 @@ export default {
       h1 { font-size: 36px; }
       h3 { font-size: 20px; }
     }
+    @media (max-width: 600px) {
+      h1 { font-size: 48px; margin: 0 }
+    }
   }
   @media (max-width: 950px) {
     flex-direction: column;

@@ -16,7 +16,23 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/GalleryImages.vue')
+    component: () => import(/* webpackChunkName: "gallery" */ '../views/GalleryImages.vue')
+  },
+  {
+    path: '/service',
+    name: 'service',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "orderOfService" */ '../views/OrderOfService.vue')
+  },
+  {
+    path: '/stream',
+    name: 'stream',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "LiveStream" */ '../views/LiveStream.vue')
   }
 ]
 
