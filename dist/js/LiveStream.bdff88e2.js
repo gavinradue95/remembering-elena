@@ -1,2 +1,2 @@
 "use strict";(self["webpackChunkremembering_elena"]=self["webpackChunkremembering_elena"]||[]).push([[493],{19:function(e,r,t){t.r(r),t.d(r,{default:function(){return c}});var a=function(){var e=this,r=e._self._c;return r("div",{attrs:{id:"live-stream"}},[r("iframe",{attrs:{width:"315",height:"560",src:e.url,title:"YouTube video player",frameborder:"0",allow:"autoplay; encrypted-media",allowfullscreen:""}})])},l=[],u={name:"LiveStream",data(){return{url:"https://www.youtube.com/embed/bqi3DvMn0pk?autoplay=1"}}},n=u,i=t(656),s=(0,i.A)(n,a,l,!1,null,"d5123c6c",null),c=s.exports}}]);
-//# sourceMappingURL=LiveStream.d9deea22.js.map
+//# sourceMappingURL=LiveStream.bdff88e2.js.map

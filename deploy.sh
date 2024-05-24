@@ -6,9 +6,7 @@ npm run build
 
 cd dist
 
-echo '
-s
-gavinradue.co.za' > CNAME
+echo 'gavinradue.co.za' > CNAME
 
 git init
 
