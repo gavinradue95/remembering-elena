@@ -11,7 +11,6 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.7.16",
-    "vue-doc-preview": "^0.3.2",
     "vue-gallery-slideshow": "^1.5.2",
     "vue-router": "^3.6.5"
   },
