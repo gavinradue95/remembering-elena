@@ -20,6 +20,6 @@ git add -A
 
 git commit -m 'deploy'
 
-git push -f main:gh-pages
+git push -f git@github.com:/gavinradue95/remembering-elena.git main:gh-pages
 
 cd - || exit
