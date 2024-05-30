@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+
 npm run build
 
 git add .
@@ -19,10 +20,6 @@ git add -A
 
 git commit -m 'deploy'
 
-git push -f origin gh-pages
-
-git commit --ammend
-
-git push
+git push -f main:gh-pages
 
 cd - || exit
