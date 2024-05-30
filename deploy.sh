@@ -19,6 +19,10 @@ git add -A
 
 git commit -m 'deploy'
 
+git push -f origin gh-pages
+
+git commit --ammend
+
 git push
 
 cd - || exit
