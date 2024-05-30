@@ -32,7 +32,6 @@ export default {
     justify-content: center;
     width: 100%;
     color: #231f20;
-    font-family: cursive;
     h2 { font-size: 48px; }
     h1 { font-size: 86px; }
     h3 { font-size: 28px; }
